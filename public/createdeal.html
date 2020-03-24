@@ -1,0 +1,43 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/createdeal.css" />
+  	<meta name="description" content="XXX" />
+    <meta name="keywords" content="XXX" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,800|Raleway:900" rel="stylesheet">
+    <title>Grubyr - Create Deal</title>
+  </head>
+
+<body>
+
+  <header>
+    <a href="index.html"><img src="img/logo3.png" alt="Grubyr"></a>
+  </header>
+
+  <div class="form">
+    <h1>Promote your Deal</h1>
+      <p class="desc">Enter the details of your deal to broadcast it to the public</p>
+
+      <div class="column"><p class="input-title">Business Name</p>
+      <input type="text" name="name" id="name" placeholder=""></div>
+
+      <div class="column"><p class="input-title">Address</p>
+      <input type="text" name="address" id="address" placeholder="287 N Northwest Hwy, Palatine, IL 60067, United States of America"></div>
+
+      <div class="column"><p class="input-title">Item</p>
+      <input type="text" name="item" id="item" placeholder="Pizza"></div>
+
+      <div class="column"><p class="input-title">Price</p>
+      <input type="number" name="price" id="price" placeholder="$1"></div>
+
+      <div class="submit-div"><button onclick="concatDeal()">Submit</button></div>
+  </div>
+
+<script src="https://cdn.socket.io/socket.io-1.4.0.js"></script>
+<script src="js/createdeal.js"></script>
+
+</body>
+</html>

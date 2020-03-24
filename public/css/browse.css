@@ -1,0 +1,102 @@
+body {
+  background-image: url('http://evaneckels.me/img/grubyr/chicago2.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/* header img {
+  opacity: 0.6;
+  filter: alpha(opacity=60);
+} */
+
+.list {
+  width: 66%;
+  margin-top: 35px;
+  margin-left: 2%;
+}
+
+.list-entry {
+  background-color: rgba(255, 255, 255, 0.6);
+  margin-bottom: 15px;
+  border-radius: 10px;
+}
+
+.list-entry-img-div {
+  float: left;
+  margin: 0;
+}
+
+.list-entry-img-div img {
+  height: 160px;
+  width: 160px;
+  display: block;
+  margin: 0;
+  border-radius: 10px 0 0 10px;
+}
+
+.list-entry-div-left {
+  float: left;
+  margin-left: 15px;
+  margin-top: 10px;
+}
+
+.list-entry h2 {
+  font-size: 250%;
+  margin: 0;
+}
+
+.list-entry-type {
+  margin: 0;
+  font-size: 150%;
+}
+
+.list-entry-time {
+  margin: 0;
+  font-size: 120%;
+}
+
+.list-entry-div-right {
+  float: right;
+  margin: 0;
+  margin: 22px 20px 0 0;
+}
+
+.list-entry-item {
+  margin: 0;
+  font-size: 180%;
+  text-align: right;
+  color: #484848;
+  font-weight: bold;
+}
+
+.list-entry-price {
+  margin: 0;
+  font-size: 300%;
+  font-weight: bold;
+  color: #85bb65;
+  text-shadow: 1px 1px black;
+  margin-top: -10px;
+}
+
+.list-entry-div-vote {
+  float: right;
+  text-align: center;
+  margin: 22px 25px 0 20px;
+}
+
+.list-entry-div-vote img  {
+  width: 55px;
+  margin: 0;
+}
+
+.list-entry-counter {
+  font-size: 300%;
+  margin: 0;
+  font-weight: bold;
+  margin-top: -5px;
+}
+
+.list-entry-desc {
+  margin: 0;
+  font-weight: bold;
+}

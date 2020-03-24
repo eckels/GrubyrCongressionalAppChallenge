@@ -1,0 +1,28 @@
+html {
+  margin: auto;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  font-family: 'Open Sans', sans-serif;
+}
+
+header {
+  /* background-color: #0563C1; */
+  height: 110px;
+}
+
+header img {
+  height: 100px;
+  margin-top: 25px;
+  margin-left: 2%;
+}
+
+.clearfix:after {
+  content: " ";
+  display: block;
+  height: 0;
+  clear: both;
+}

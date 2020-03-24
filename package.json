@@ -1,0 +1,14 @@
+{
+  "name": "Grubyr",
+  "version": "0.0.0",
+  "description": "A way for local resturants too sell surplus food, instead of it going to waste.",
+  "main": "server.js",
+  "author": "Sean Kim",
+  "dependencies": {
+    "express": "*",
+    "socket.io": "*",
+	  "mongodb": "*",
+	  "monk":"*",
+    "request":"*"
+  }
+}

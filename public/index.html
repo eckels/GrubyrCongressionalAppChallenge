@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/index.css" />
+  	<meta name="description" content="XXX" />
+    <meta name="keywords" content="XXX" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,800|Raleway:900" rel="stylesheet">
+    <title>Grubyr - Home</title>
+  </head>
+
+<body>
+
+  <div class="content">
+    <div class="h1-div"><h1>Grubyr</h1></div>
+      <p>Promotion of Surplus Food from Restaurant to Consumer</p>
+        <div class="location-div"><input type="text" name="location-city" id="inputCity" placeholder="City">
+        <input type="text" name="location-state" id="inputState" placeholder="State"></div><br>
+            <button id="submitInfo" onClick="goToList()">Go<img src="img/arrow.png" alt="Go"></button>
+
+            <a href="#" onclick="geoFindMe()"><div class="nav">
+              <img src="img/navicon.png" alt="Navigation Icon">
+                <p>Use My Location</p>
+            </div></a>
+			<div id="out"></div>
+  </div>
+
+  <div class="bottom">
+    <a href="createdeal.html"><p>I am a Restaurant Owner</p><img src="img/arrow2.png" alt="Go"></a>
+  </div> 
+
+<script src="https://cdn.socket.io/socket.io-1.4.0.js"></script>
+<script src="js/index.js"></script>
+</body>
+</html>
